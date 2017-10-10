@@ -31,9 +31,9 @@ I usually use the forever module to manage the service but have not used here as
 1. I tried to follow your steps to import React but i didn't succeed. So used the submit method to save the details.
 2. I have created a free mongodb in mLab.com to which i connect to store and retrieve the data.<br>
 You can access it via,<br>
-mongodb://<dbuser>:<dbpassword>@ds113435.mlab.com:13435/domain_au<br>
-<dbuser> is admin<br>
-<dbpassword> is Protect$1<br>
+`mongodb://<dbuser>:<dbpassword>@ds113435.mlab.com:13435/domain_au`<br>
+`<dbuser> is admin`<br>
+`<dbpassword> is Protect$1`<br>
 3. The counters (sequences) in mongodb didn't work for some reason, so i couldn't manage to do update functionality
 4. The unit tests i have written are only to give an idea. I agree more cases should be written.
 5. I have used kraken on top of express in this sample project
